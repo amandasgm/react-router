@@ -14,52 +14,74 @@ body {
 
   background-color: #fbf4f4;
 
-  font-family:Verdana, Geneva, Tahoma, sans-serif
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  padding: 32px;
 }
 
 h1 {
   margin: 22px 0;
 }
 
-nav{
+nav {
   display: flex;
   align-items: center;
   gap: 22px;
 }
 
-a{
-  color:#f24d0d;
+a {
+  color: #f24d0d;
   text-decoration: none;
 }
 
-a, button{
+a,
+button {
   font-weight: 700;
   transform: filter 0.2s;
 }
 
 button:hover,
-a:hover{
-  filter:brightness(0.7)
+a:hover {
+  filter: brightness(0.7);
 }
 
-span{
+span {
   color: #3d3d3d;
   font-weight: 600;
   font-size: 14px;
-
 }
 
-strong{
-  color:#f24d0d;
+strong {
+  color: #f24d0d;
   text-transform: uppercase;
-  
 }
 
-button{
+button {
   background-color: #f24d0d;
   padding: 12px 16px;
   border-radius: 7px;
   border: none;
   color: white;
   cursor: pointer;
+}
+
+.cards {
+  display: flex;
+  gap: 16px;
+  margin: 12px 0;
+  flex-wrap: wrap;
+}
+
+.cards a {
+  width: 100px;
+  height: 100px;
+  background-color: #d7eff9;
+  border-radius: 12px;
+  color: #0095e5;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0 6px;
 }
