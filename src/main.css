@@ -13,6 +13,8 @@ body {
   align-items: center;
 
   background-color: #fbf4f4;
+
+  font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
 h1 {
@@ -38,4 +40,17 @@ a, button{
 button:hover,
 a:hover{
   filter:brightness(0.7)
+}
+
+span{
+  color: #3d3d3d;
+  font-weight: 600;
+  font-size: 14px;
+
+}
+
+strong{
+  color:#f24d0d;
+  text-transform: uppercase;
+  
 }
